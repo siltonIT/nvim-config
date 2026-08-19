@@ -6,7 +6,7 @@ vim.keymap.set("n", "<Tab>", ":bnext<CR>")
 vim.keymap.set("n", "<S-Tab>", ":bprev<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
-vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
+vim.keymap.set("n", "<leader>e", ":Neotree toggle position=float<CR>")
 
 -- Ctrl+A, C, X, V
 vim.keymap.set("n", "<C-a>", "ggVG")
